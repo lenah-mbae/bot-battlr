@@ -1,12 +1,37 @@
-# React + Vite
+# Bot Battlr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bot Battlr** is a React-based web app that allows users (aka Galactic Overlords) to browse, manage, and battle bots. Users can assemble a custom bot army, release bots, and permanently discharge them — all with sleek UI interactions and real-time updates powered by a local JSON server backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- View a collection of bots with detailed stats
+- Enlist bots into your personal bot army
+- Release bots from the army without deleting them
+- Discharge bots permanently (deletes from backend)
+- Smooth user interface with modern layout and styling
+- Local JSON Server used to mock backend API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##Technologies Used
+
+- React (via Vite)
+- JSON Server (for mock backend)
+- JavaScript (ES6+)
+- CSS Flexbox / Grid for layout
+
+👤 Author
+Lenah Mbae
+
+Student | Curious Galactic Overlord
+
+
+📜 License
+This project is for educational purposes only.
+
+
+
+---
+
