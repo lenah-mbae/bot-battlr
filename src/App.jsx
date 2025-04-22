@@ -7,7 +7,7 @@ function App() {
   const [army, setArmy] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/bots")
+    fetch('http://localhost:8001/bots')
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);
@@ -40,7 +40,7 @@ function App() {
   }
 
   function dischargeBot(botId) {
-    fetch(`http://localhost:3000/bots/${botId}`, {
+    fetch(`http://localhost:8001/bots/${botId}`, {
       method: "DELETE",
     })
       .then(() => {
